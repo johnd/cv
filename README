@@ -1,0 +1,60 @@
+CV Generator
+============
+
+Takes a YAML file and produces a human-readable CV file. Will eventually support plain text, RTF, and PDF, only does plain text at this first iteration.
+
+Usage
+-----
+
+Use the rake tasks to generate a formatted CV. 'rake CV:all' will go through all available formats.
+
+The rake tasks default to a YAML file of 'cv.yml' and output files called 'cv.ext'. If you want to change this, call the task with 'infile=filename.yml' and/or 'outfile=filename'. If you add an extension to the outfile, it'll be stripped automatically and replaced with the appropriate extension for the CV format being generated.
+
+YAML file format
+----------------
+
+The YAML file is split into four non-optional key-value pairs, with keys 'Personal Information', 'Skills', Experience', and 'Education'. These form the main sections of the file, each with their own specific format. Any given formatter might choose to not use every available bit of information (the default plain text formatter doesn't use 'Current Situation', for example).
+
+For an example - which might be easier to understand than following my description below - look at 'cv.yml'.
+
+Personal Information:
+
+Most of the information in this section is optional, the only exceptions being the name parts. From a pragmatic point of view, though, not putting at least some method of contact on a CV is probably unwise.
+
+The keys in this section are mostly self-explanatory and except where noted the value is expected to be a simple string.
+
+Keys:
+
+'First Name', 'Last Name', 'Home Phone', 'Mobile Phone', 'Web site', 'Email address', 'Address', 'Current Situation', 'Goal'.
+
+The value for 'Address' is a further set of key/value pairs, each optional and with strings for the value: 'Street', 'Town', 'County', 'Post Code'.
+
+'Current Situation' and 'Goal' expect blocks, to permit multiple lines of text.
+
+Skills:
+
+Skills is formed from a sequence (equivalent to an array). The first element in the sequence should be a block, and is used to provide text description. This element is non-optional.
+
+The remaining elements are all key/value pairs with keys 'Skill' and 'Level'. The value for both keys should be strings, and at least one of these key/value pairs is required.
+
+Skill levels are free-form text, so can be adapted to the context of the specific skill (ie, for language skills 'fluent' or 'conversational' might be more appropriate). Skills will be displayed in a table in the order they are entered in the file.
+
+Experience:
+
+Experience is formed from a sequence, where each entry in the sequence is a series of key/value pairs. Only one key is optional ('End Date'), and all but one are simple strings ('Description' should have a block as the value).
+
+Keys:
+
+'Company', 'Location', 'Start Date', 'End Date', 'Job Title', 'Description'.
+
+If 'End Date' is not present, it will be left out of the formatted CV rather than being substituted with 'current' or similar. As it's a string, if you want 'Current' on the formatted CV, use it as the value in the YAML file.
+
+Education:
+
+Experience is formed from a sequence, where each entry in the sequence is a series of key/value pairs. The date keys are optional, and all but one are simple strings ('Results' should have a block as the value).
+
+Keys:
+
+'Organisation', 'Location', 'Start Date', 'End Date', 'Results'.
+
+If 'Start Date' is not specified, 'End Date' will be ignored. If 'End Date' is not specified it will be left out rather than being replaced with 'current', as per 'Experience'.
