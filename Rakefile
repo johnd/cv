@@ -13,6 +13,7 @@ module CV
     desc "Parse CV into plain text"
     task :plaintext do
       require 'lib/plain_text'
+      require 'yaml'
       input = ENV['infile'] || "cv.yml"
       if ENV['outfile']
         output = ENV['outfile'].gsub(/\.[^.]+$/,'') + ".txt"
