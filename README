@@ -1,7 +1,9 @@
 CV Generator
 ============
 
-Takes a YAML file and produces a human-readable CV file. Will eventually support plain text, RTF, and PDF, only does plain text at this first iteration.
+Takes a YAML file and produces a human-readable CV file. Supports producing plain text, HTML, and PDF files at this time.
+
+PDF output relies on PDFKit, which as of writing only installs correctly on Mac OS X and Linux and requires a manual command to be run after the gem install.
 
 Usage
 -----
@@ -51,10 +53,18 @@ If 'End Date' is not present, it will be left out of the formatted CV rather tha
 
 Education:
 
-Experience is formed from a sequence, where each entry in the sequence is a series of key/value pairs. The date keys are optional, and all but one are simple strings ('Results' should have a block as the value).
+Education is formed from a sequence, where each entry in the sequence is a series of key/value pairs. The date keys are optional, and all but one are simple strings ('Results' should have a block as the value).
 
 Keys:
 
 'Organisation', 'Location', 'Start Date', 'End Date', 'Results'.
 
 If 'Start Date' is not specified, 'End Date' will be ignored. If 'End Date' is not specified it will be left out rather than being replaced with 'current', as per 'Experience'.
+
+
+TODO
+----
+
+RTF file support.
+DOC file support. (Hint: if you rename an RTF file to '.doc', Word will open it without complaint and save it as a Doc.)
+Custom stylesheet for PDFKit generation.

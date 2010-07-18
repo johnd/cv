@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+	<title>CV for <%= fullname %></title>
+	<style type="text/css">
+	<%= stylesheet %>
+	</style>
+</head>
+<body>
+	<h1>CV for <%= fullname %></h1>
+	<% if @contact['Goal'] %>
+	<p><%= @contact['Goal'] %></p>
+	<% end %>
+	<dl>
+		<% contact_methods.each do | contact_method | %>
+		<dt><%= contact_method.first %></dt>
+		<dd><%= contact_method.last %></dt>
+		<% end %>
+	</dl>
+	<h2 id="skills">Skills</h2>
+	<p><%= @skills.first %></p>
+	<table>
+		<thead>
+			<tr><td>Skill</td><td>Level</td></tr>
+		</thead>
+		<tbody>
+			<% @skills[1..-1].each do | skill | %>
+			<tr><td><%= skill['Skill'] %></td><td><%= skill['Level'] %></td></tr>
+			<% end %>
+		</tbody>
+	</table>
+	<h2 id="experience">Experience</h2>
+	<ul>
+		<% @experience.each do | job | %>
+		<li class="job">
+		<ul>
+			<li class="jobcompany"><%= format_company(job) %></li>
+			<li class="jobtitle"><%= job['Job Title'] %></li>
+			<li class="jobdesc"><%= job_description(job['Description']) %></li>
+		</ul>
+		</li>
+		<% end %>
+	</ul>
+	<h2 id="education">Education</h2>
+	<ul>
+		<% @education.each do | qualification | %>
+		<li>
+			<ul>
+				<li class="qualtitle"><%= format_education(qualification) %></li>
+				<li class="qualresults"><%= qualification["Results"] %></li>
+			</ul>
+		</li>
+	    <% end %>
+	</ul>
+</body>
+</html>
