@@ -1,0 +1,14 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    cssmin (1.0.2)
+    pdfkit (0.4.0)
+    rdiscount (1.6.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  cssmin
+  pdfkit
+  rdiscount
