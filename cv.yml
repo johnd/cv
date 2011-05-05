@@ -10,14 +10,14 @@ Personal Information:
     County: Fife
     Post Code: KY11 1DB
   Current Situation: |
-      Currently employed providing end-user support and system troubleshooting for a complex Perl-based application.
+      Currently working with a start-up as sole developer, producing a B2B web application making extensive use of screen-scraping technologies.
   Goal: |
-      Seeking sysadmin, operational support, or junior development role, ideally one which can make good use of my existing *nix and virtualisation skills and provide opportunity for career development.
+      Seeking sysadmin, operational support, or development role, ideally one which can make good use of my existing *nix and virtualisation skills and provide opportunity for career development.
 
 Skills:
   - |
     Primary background in technical support and operations/sysadmin with a range of skills in this area, including virtualisation technologies, continuous use of *nix command-line environment, remote diagnostics, and excellent customer interaction skills.
-    Also some development experience with Ruby and familiarity with agile development method and related technology (such as TDD/BDD with RSpec and Cucumber).
+    Also development experience with Ruby and familiarity with agile development method and related technology (such as TDD/BDD with RSpec and Cucumber).
   - Skill: Application troubleshooting
     Level: Experienced
   - Skill: VMware
@@ -34,6 +34,18 @@ Skills:
     Level: Experienced
   - Skill: Apache
     Level: Experienced
+  - Skill: Ruby
+    Level: Moderate
+  - Skill: Rails
+    Level: Moderate
+  - Skill: Rack application deployment
+    Level: Moderate
+  - Skill: JavaScript
+    Level: Moderate
+  - Skill: jQuery
+    Level: Moderate
+  - Skill: MySQL / SQLite3 / PostgreSQL
+    Level: Moderate
   - Skill: Networking
     Level: Moderate
   - Skill: Wireless Networking
@@ -44,29 +56,62 @@ Skills:
     Level: Moderate
   - Skill: VoIP (Server/Asterisk)
     Level: Moderate
-  - Skill: Ruby
-    Level: Moderate
-  - Skill: Rack application deployment
-    Level: Moderate
-  - Skill: MySQL / SQLite3
-    Level: Moderate
   - Skill: Git
     Level: Moderate
   - Skill: Subversion
     Level: Moderate
   - Skill: Windows Server (IIS)
     Level: Moderate
-  - Skill: Ruby Unit Testing
-    Level: Basic
-  - Skill: Perl
+  - Skill: Perl Debugging
+    Level: Moderate  
+  - Skill: Perl Development
     Level: Basic
 
 Experience:
+  - Company: SourceRail
+    Location: Edinburgh
+    Job Title: Software Engineer
+    Start Date: January 2011
+    End Date: May 2011
+    Description: |
+      * Sole full-time employee at an extremely early-stage media monitoring start-up.
+      
+      * Primary developer, with responsibility across the full stack, of a Rails 3 application.
+      * Working with an experienced consultant to provide guidance and additional support.
+      * Specific tasks/responsibilties include:
+        - Database/model design
+        - TDD of application development using Cucumber and RSpec
+        - Choice of appropriate technologies and libraries (such as the Devise RubyGem)
+        - Substantial influence over application workflow
+        - Integration of site design as supplied by an external designer
+        - Extensive work on screen-scraping scripts using Nokogiri and Mechanize
+      
+      * As the sole developer and only technical employee this role has involved a significant increase in all my technical and soft skills, including being almost entirely self-managing and self-directed. This role has provided significant real world experience of rapid iterative development and dealing with flexible situations without clearly defined specifications.
+
+  - Company: Xybur
+    Location: Edinburgh
+    Job Title: Technical Lead
+    Start Date: January 2006
+    End Date: Current
+    Description: |
+      * Partner in small web-hosting company. 
+
+      * Role involves a high degree of technical ability, including: 
+        - Installation, maintenance, and upgrading of rackmount server in hosting facility at Redbus Meridian. 
+        - Installation and configuration of Linux operating system. 
+        - Installation and configuration of Xen virtualisation system, including deployment of several Linux virtual machines. 
+        - Administering multiple virtual Linux systems running Ubuntu server and CentOS. 
+        - Installation, configuration, and maintenance of server software components, including Apache, ProFTPD, MySQL, and Postfix.
+        - Deploying and maintaining all internal business systems, including OTRS ticketing system, internal documentation wiki, and cPanel/WHM hosting control software. 
+        - Providing all technical support to customers. 
+
+      * Working with other partner to handle general business administration.
+
   - Company: Daxtra Technologies
     Location: Edinburgh
     Job Title: Operations Engineer
     Start Date: September 2007
-    End Date: Current
+    End Date: December 2010
     Description: |
       * Providing a mix of end-user support, systems administration, and Perl scripting and debugging for a small and highly specialist software development company and their clients. 
       * Role is split between providing support (approximately 70%) and acting as sysadmin (30%) 
@@ -86,25 +131,6 @@ Experience:
         - As required, building new server hardware (both tower and rackmount) and ensuring all required system components (CentOS operating system, internal software packages, and when needed VMware Workstation and Windows) are installed to allow developers to start work. 
       
       * Role required development of skills in Perl, Windows system administration, and improvement of existing skills with Linux system administration and MySQL. It has involved a considerable amount of work with VMware-based virtualisation software utilising almost their entire product range for various projects.
-
-  - Company: Xybur
-    Location: Edinburgh
-    Job Title: Technical Lead
-    Start Date: January 2006
-    End Date: Current
-    Description: |
-      * Partner in small web-hosting company. 
-      
-      * Role involves a high degree of technical ability, including: 
-        - Installation, maintenance, and upgrading of rackmount server in hosting facility at Redbus Meridian. 
-        - Installation and configuration of Linux operating system. 
-        - Installation and configuration of Xen virtualisation system, including deployment of several Linux virtual machines. 
-        - Administering multiple virtual Linux systems running Ubuntu server and CentOS. 
-        - Installation, configuration, and maintenance of server software components, including Apache, ProFTPD, MySQL, and Postfix.
-        - Deploying and maintaining all internal business systems, including OTRS ticketing system, internal documentation wiki, and cPanel/WHM hosting control software. 
-        - Providing all technical support to customers. 
-      
-      * Working with other partner to handle general business administration.
       
   - Company: Sykes
     Location: Edinburgh
