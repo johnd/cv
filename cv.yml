@@ -72,7 +72,7 @@ Experience:
     Location: Edinburgh
     Job Title: Software Engineer
     Start Date: January 2011
-    End Date: May 2011
+    End Date: Current
     Description: |
       * Sole full-time employee at an extremely early-stage media monitoring start-up.
       
@@ -85,6 +85,8 @@ Experience:
         - Substantial influence over application workflow
         - Integration of site design as supplied by an external designer
         - Extensive work on screen-scraping scripts using Nokogiri and Mechanize
+        - Version control using Git
+        - Helping to maintain deployment infrastructure using chef and Amazon Web Services
       
       * As the sole developer and only technical employee this role has involved a significant increase in all my technical and soft skills, including being almost entirely self-managing and self-directed. This role has provided significant real world experience of rapid iterative development and dealing with flexible situations without clearly defined specifications.
 
