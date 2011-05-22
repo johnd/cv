@@ -16,7 +16,7 @@ module CV
 
     desc "Parse CV into plain text"
     task :plaintext do
-      require 'lib/plain_text'
+      require './lib/plain_text'
       require 'yaml'
       input = ENV['infile'] || "cv.yml"
       if ENV['outfile']
@@ -33,7 +33,7 @@ module CV
 
     desc "Parse CV into HTML"
     task :HTML do
-      require 'lib/html'
+      require './lib/html'
       input = ENV['infile'] || "cv.yml"
       if ENV['outfile']
         output = ENV['outfile'].gsub(/\.[^.]+$/,'') + ".html"
@@ -47,7 +47,7 @@ module CV
 
     desc "Parse CV into PDF"
     task :PDF do
-      require 'lib/html' # Confused? Using PDFKit means the HTML generator does the hard work.
+      require './lib/html' # Confused? Using PDFKit means the HTML generator does the hard work.
       require 'pdfkit'
       input = ENV['infile'] || "cv.yml"
       if ENV['outfile']
