@@ -1,4 +1,4 @@
-require 'lib/helpers'
+require './lib/helpers'
 
 module CV
   class PlainText
