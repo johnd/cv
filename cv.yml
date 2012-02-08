@@ -10,13 +10,13 @@ Personal Information:
     County: Fife
     Post Code: KY11 1DB
   Current Situation: |
-      Currently working with a start-up as sole developer, producing a B2B web application making extensive use of screen-scraping technologies.
+      Currently working with a start-up as part-time sysadmin, managing their virtualised infrastructure using Chef.
   Goal: |
-      Seeking sysadmin, operational support, or development role, ideally one which can make good use of my existing *nix and virtualisation skills and provide opportunity for career development.
+      Seeking full or part-time sysadmin/devops role, potentially with some Ruby software development.
 
 Skills:
   - |
-    Primary background in technical support and operations/sysadmin with a range of skills in this area, including virtualisation technologies, continuous use of *nix command-line environment, remote diagnostics, and excellent customer interaction skills.
+    Primary background in operations/sysadmin with a range of skills in this area, including configuration management, virtualisation technologies, continuous use of *nix command-line environment, remote diagnostics, and excellent customer interaction skills.
     Also development experience with Ruby and familiarity with agile development method and related technology (such as TDD/BDD with RSpec and Cucumber).
   - Skill: Application troubleshooting
     Level: Experienced
@@ -26,9 +26,7 @@ Skills:
     Level: Experienced
   - Skill: Server hardware
     Level: Experienced
-  - Skill: Linux (server)
-    Level: Experienced
-  - Skill: Linux (desktop)
+  - Skill: Linux
     Level: Experienced
   - Skill: Mac OS X (desktop)
     Level: Experienced
@@ -68,6 +66,26 @@ Skills:
     Level: Basic
 
 Experience:
+  - Company: PickLive
+    Location: London/Remote
+    Job Title: Developer
+    Start Date: July 2011
+    End Date: Current
+    Description: |
+      * As of February 2012, this role is now part-time, consisting of sysadmin/devops duties only.
+      
+      * Working remotely for this small venture-backed start-up performing a mix of Ruby development and sysadmin/devops work.
+      * As a developer, involved in adding and maintaining features as part of a rapidly moving start-up.
+        - Large applications developed as Rails apps, smaller admin/trial projects done using Sinatra.
+        - Working as part of a small team, using aspects of Agile methodology (Kanban-style board, daily stand-ups) to keep the team on focus and moving quickly.
+        - Focus on delivering high quality, test-driven code that fulfills specific business requirements.
+      
+      * As sysadmin, took prime responsibility for maintaining existing infrastructure, including being main 'on-call' contact.
+        - Infrastructure management is automated using Chef, with new systems or code consistently being added by writing a Chef cookbook first, and then trialing on a staging environment.
+        - Application monitoring using Nagios, with all critical aspects of the infrastructure monitored. Maintaining viable monitoring (in some cases removing or adjusting monitoring to reduce noise) is an important part of this role.
+        - Managing resources to ensure that our limited budget is used efficiently, while avoiding impacting peak-time responsiveness. Role-based server task assignment in Chef is essential for this.
+        - Being aware of keeping best security practices, as company is in a regulated industry and annual security audits are required.
+        - Evaluating technical solutions to ensure that any choices made are appropriate for the needs of the company.
   - Company: SourceRail
     Location: Edinburgh
     Job Title: Software Engineer
