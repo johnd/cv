@@ -20,9 +20,7 @@ Skills:
     Also development experience with Ruby and familiarity with agile development method and related technology (such as TDD/BDD with RSpec and Cucumber).
   - Skill: Application troubleshooting
     Level: Experienced
-  - Skill: VMware
-    Level: Experienced
-  - Skill: Xen
+  - Skill: Virtualisation (VMWare, Xen)
     Level: Experienced
   - Skill: Server hardware
     Level: Experienced
@@ -32,11 +30,15 @@ Skills:
     Level: Experienced
   - Skill: Apache
     Level: Experienced
+  - Skill: Nginx
+    Level: Experienced
+  - Skill: Chef
+    Level: Experienced
+  - Skill: Rack application deployment
+    Level: Experienced
   - Skill: Ruby
     Level: Moderate
   - Skill: Rails
-    Level: Moderate
-  - Skill: Rack application deployment
     Level: Moderate
   - Skill: JavaScript
     Level: Moderate
@@ -59,9 +61,9 @@ Skills:
   - Skill: Subversion
     Level: Moderate
   - Skill: Windows Server (IIS)
-    Level: Moderate
+    Level: Basic
   - Skill: Perl Debugging
-    Level: Moderate  
+    Level: Basic
   - Skill: Perl Development
     Level: Basic
 
@@ -73,13 +75,13 @@ Experience:
     End Date: Current
     Description: |
       * As of February 2012, this role is now part-time, consisting of sysadmin/devops duties only.
-      
+
       * Working remotely for this small venture-backed start-up performing a mix of Ruby development and sysadmin/devops work.
       * As a developer, involved in adding and maintaining features as part of a rapidly moving start-up.
         - Large applications developed as Rails apps, smaller admin/trial projects done using Sinatra.
         - Working as part of a small team, using aspects of Agile methodology (Kanban-style board, daily stand-ups) to keep the team on focus and moving quickly.
         - Focus on delivering high quality, test-driven code that fulfills specific business requirements.
-      
+
       * As sysadmin, took prime responsibility for maintaining existing infrastructure, including being main 'on-call' contact.
         - Infrastructure management is automated using Chef, with new systems or code consistently being added by writing a Chef cookbook first, and then trialing on a staging environment.
         - Application monitoring using Nagios, with all critical aspects of the infrastructure monitored. Maintaining viable monitoring (in some cases removing or adjusting monitoring to reduce noise) is an important part of this role.
@@ -93,7 +95,7 @@ Experience:
     End Date: June 2011
     Description: |
       * Sole full-time employee at an extremely early-stage media monitoring start-up.
-      
+
       * Primary developer, with responsibility across the full stack, of a Rails 3 application.
       * Working with an experienced consultant to provide guidance and additional support.
       * Specific tasks/responsibilties include:
@@ -105,7 +107,7 @@ Experience:
         - Extensive work on screen-scraping scripts using Nokogiri and Mechanize
         - Version control using Git
         - Helping to maintain deployment infrastructure using chef and Amazon Web Services
-      
+
       * As the sole developer and only technical employee this role has involved a significant increase in all my technical and soft skills, including being almost entirely self-managing and self-directed. This role has provided significant real world experience of rapid iterative development and dealing with flexible situations without clearly defined specifications.
 
   - Company: Xybur
@@ -114,16 +116,16 @@ Experience:
     Start Date: January 2006
     End Date: Current
     Description: |
-      * Partner in small web-hosting company. 
+      * Partner in small web-hosting company.
 
-      * Role involves a high degree of technical ability, including: 
-        - Installation, maintenance, and upgrading of rackmount server in hosting facility at Redbus Meridian. 
-        - Installation and configuration of Linux operating system. 
-        - Installation and configuration of Xen virtualisation system, including deployment of several Linux virtual machines. 
-        - Administering multiple virtual Linux systems running Ubuntu server and CentOS. 
+      * Role involves a high degree of technical ability, including:
+        - Installation, maintenance, and upgrading of rackmount server in hosting facility at Redbus Meridian.
+        - Installation and configuration of Linux operating system.
+        - Installation and configuration of Xen virtualisation system, including deployment of several Linux virtual machines.
+        - Administering multiple virtual Linux systems running Ubuntu server and CentOS.
         - Installation, configuration, and maintenance of server software components, including Apache, ProFTPD, MySQL, and Postfix.
-        - Deploying and maintaining all internal business systems, including OTRS ticketing system, internal documentation wiki, and cPanel/WHM hosting control software. 
-        - Providing all technical support to customers. 
+        - Deploying and maintaining all internal business systems, including OTRS ticketing system, internal documentation wiki, and cPanel/WHM hosting control software.
+        - Providing all technical support to customers.
 
       * Working with other partner to handle general business administration.
 
@@ -133,75 +135,75 @@ Experience:
     Start Date: September 2007
     End Date: December 2010
     Description: |
-      * Providing a mix of end-user support, systems administration, and Perl scripting and debugging for a small and highly specialist software development company and their clients. 
-      * Role is split between providing support (approximately 70%) and acting as sysadmin (30%) 
-      * Support role primarily involves tracking issues in an extremely complex Perl-based application, taking total ownership of all issues and where necessary liaising with external companies to provide a resolution to the issue. 
-      
-      * Typical troubleshooting issues include: 
-        - Subtle bugs/misapplications of business logic in perl scripts. 
-        - Windows-based issues such as IIS and Outlook/Exchange configuration. 
-        - System-based problems such as low disc space or connectivity problems. 
-        - Often subtle issues with integration with third-party database applications and clients' existing systems. 
-      
-      * Junior sysadmin role involves providing internal support for approximately 20 staff, building and deploying CentOS-based servers and providing on-going maintenance and development for the internal network. 
-      * Specific areas of this role include: 
-        - Evaluating and refactoring existing server build processes, including the deployment of internal YUM repositories and extensive customisation of network boot scripts to streamline the deployment process. 
-        - Extensive work with virtualisation using VMware, including administration of several VMware Server machines and performing evaluation and deployment of VMware Infrastructure ESXi hosts and evaluating VMware VirtualCenter. 
-        - Providing support to web application developers, including assistance with Apache and other system configuration. 
-        - As required, building new server hardware (both tower and rackmount) and ensuring all required system components (CentOS operating system, internal software packages, and when needed VMware Workstation and Windows) are installed to allow developers to start work. 
-      
+      * Providing a mix of end-user support, systems administration, and Perl scripting and debugging for a small and highly specialist software development company and their clients.
+      * Role is split between providing support (approximately 70%) and acting as sysadmin (30%)
+      * Support role primarily involves tracking issues in an extremely complex Perl-based application, taking total ownership of all issues and where necessary liaising with external companies to provide a resolution to the issue.
+
+      * Typical troubleshooting issues include:
+        - Subtle bugs/misapplications of business logic in perl scripts.
+        - Windows-based issues such as IIS and Outlook/Exchange configuration.
+        - System-based problems such as low disc space or connectivity problems.
+        - Often subtle issues with integration with third-party database applications and clients' existing systems.
+
+      * Junior sysadmin role involves providing internal support for approximately 20 staff, building and deploying CentOS-based servers and providing on-going maintenance and development for the internal network.
+      * Specific areas of this role include:
+        - Evaluating and refactoring existing server build processes, including the deployment of internal YUM repositories and extensive customisation of network boot scripts to streamline the deployment process.
+        - Extensive work with virtualisation using VMware, including administration of several VMware Server machines and performing evaluation and deployment of VMware Infrastructure ESXi hosts and evaluating VMware VirtualCenter.
+        - Providing support to web application developers, including assistance with Apache and other system configuration.
+        - As required, building new server hardware (both tower and rackmount) and ensuring all required system components (CentOS operating system, internal software packages, and when needed VMware Workstation and Windows) are installed to allow developers to start work.
+
       * Role required development of skills in Perl, Windows system administration, and improvement of existing skills with Linux system administration and MySQL. It has involved a considerable amount of work with VMware-based virtualisation software utilising almost their entire product range for various projects.
-      
+
   - Company: Sykes
     Location: Edinburgh
     Job Title: Nokia Technical Support Professional
     Start Date: June 2006
     End Date: September 2007
     Description: |
-      * Providing end-user technical support on behalf of Nokia. 
-      * Role included five months of general product and usability support until November 2006, and technical PC and connectivity support until end of contract. 
+      * Providing end-user technical support on behalf of Nokia.
+      * Role included five months of general product and usability support until November 2006, and technical PC and connectivity support until end of contract.
 
-      * General support role included: 
-        - Providing mobile phone product usability support to users with a wide range of  technical experience. 
-        - Support ranged from basic usability (how to turn devices on and make phone calls), to more advanced functionality such as setting up basic email support on compatible mobile phones. 
-        - Role demanded a great deal of patience and an ability to work under pressure due to extremely high call volumes. 
+      * General support role included:
+        - Providing mobile phone product usability support to users with a wide range of  technical experience.
+        - Support ranged from basic usability (how to turn devices on and make phone calls), to more advanced functionality such as setting up basic email support on compatible mobile phones.
+        - Role demanded a great deal of patience and an ability to work under pressure due to extremely high call volumes.
 
-      * Technical support role included: 
-        - Handling connectivity queries from end-users wishing to connect their mobile phone handsets to their computer, including configuration of device and computer for using the mobile phone handset as a cellular modem. 
-        - Providing support for the client's PC software, including handling the introduction of a Windows Vista compatible version. 
-        - Handling connectivity queries, including helping end-users set up their mobile phone handsets for use on wireless LAN networks. 
-        - Acting as 'moderator' on Nokia's Discussion Boards, helping to keep discussion threads on-topic and in line with Nokia's rules. 
-        - Role demanded an ability to work independently to investigate and take ownership of issues. 
-      
+      * Technical support role included:
+        - Handling connectivity queries from end-users wishing to connect their mobile phone handsets to their computer, including configuration of device and computer for using the mobile phone handset as a cellular modem.
+        - Providing support for the client's PC software, including handling the introduction of a Windows Vista compatible version.
+        - Handling connectivity queries, including helping end-users set up their mobile phone handsets for use on wireless LAN networks.
+        - Acting as 'moderator' on Nokia's Discussion Boards, helping to keep discussion threads on-topic and in line with Nokia's rules.
+        - Role demanded an ability to work independently to investigate and take ownership of issues.
+
   - Company: Scottish Widows
     Location: Edinburgh
     Job Title: Call Centre Consultant
     Start Date: July 2005
     End Date: March 2006
     Description: |
-      * Worked as part of Scottish Widows' 'Divisional Contact Centre'. 
-      * Main duties were taking inbound calls from existing customers and their financial advisors. 
-      * Handled often complex changes to financial services products. 
-      * Explained complicated product lines (including pensions in the run up to 'A-day' legislation changes in April 2006) to customers. 
+      * Worked as part of Scottish Widows' 'Divisional Contact Centre'.
+      * Main duties were taking inbound calls from existing customers and their financial advisors.
+      * Handled often complex changes to financial services products.
+      * Explained complicated product lines (including pensions in the run up to 'A-day' legislation changes in April 2006) to customers.
       * Used a variety of systems for several different product lines dating over a number of years, all in a Windows NT-based environment.
-      
+
 Education:
   - Organisation: University of Edinburgh
     Location: Edinburgh
     Results: |
       Undergraduate Certificate of Higher Education
-    
+
   - Organisation: James Watt College
     Location: Greenock
     Results: |
       SQA Higher Still: English, grade A; psychology, grade A; sociology, grade C; modern studies, grade C.
-    
+
   - Organisation: University of Strathclyde
     Location: Glasgow
     Results: |
-      First year Science Studies - shadowing Computer Science. 
+      First year Science Studies - shadowing Computer Science.
       Course left after 1st year.
-      
+
   - Organisation: Gourock High School
     Location: Gourock
     Results: |
