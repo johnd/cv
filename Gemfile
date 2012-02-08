@@ -1,4 +1,4 @@
-source :gemcutter
+source :rubygems
 
 gem "pdfkit"
 gem "rdiscount"
