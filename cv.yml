@@ -10,9 +10,9 @@ Personal Information:
     County: Fife
     Post Code: KY11 1DB
   Current Situation: |
-      Currently working with a start-up as part-time sysadmin, managing their virtualised infrastructure using Chef.
+      Currently working as contractor 'Reliability Engineer' building/managing a substantial Node and Hadoop deployment.
   Goal: |
-      Seeking full or part-time sysadmin/devops role, potentially with some Ruby software development.
+      Seeking full-time or contract sysadmin/devops role, potentially with some Ruby software development.
 
 Skills:
   - |
@@ -36,6 +36,8 @@ Skills:
     Level: Experienced
   - Skill: Rack application deployment
     Level: Experienced
+  - Skill: Puppet
+    Level: Moderate
   - Skill: Ruby
     Level: Moderate
   - Skill: Rails
@@ -60,6 +62,8 @@ Skills:
     Level: Moderate
   - Skill: Subversion
     Level: Moderate
+  - Skill: Hadoop
+    Level: Basic
   - Skill: Windows Server (IIS)
     Level: Basic
   - Skill: Perl Debugging
@@ -68,11 +72,19 @@ Skills:
     Level: Basic
 
 Experience:
+  - Company: Collective Media
+    Location: New York/Remote
+    Job Title: Reliability Engineer
+    Start Date: May 2012
+    Description: |
+      * Working as a contractor, initially part-time, moving to full-time in June 2012.
+      * Managing deployment of new ad-serving and data-gathering platform using Puppet and Capistrano.
+      * Platform intended to support ~100k requests per second with hardware across four datacentres.
   - Company: PickLive
     Location: London/Remote
     Job Title: Developer
     Start Date: July 2011
-    End Date: Current
+    End Date: June 2012
     Description: |
       * As of February 2012, this role is now part-time, consisting of sysadmin/devops duties only.
 
