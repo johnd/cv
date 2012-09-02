@@ -3,7 +3,7 @@ CV Generator
 
 Takes a YAML file and produces a human-readable CV file. Supports producing plain text, HTML, and PDF files at this time.
 
-PDF output relies on PDFKit, which as of writing only installs correctly on Mac OS X and Linux and requires a manual command to be run after the gem install.
+PDF output relies on PDFKit, which requires wkhtmltopdf to be installed. There's a useful guide on how to install it on various platforms here: https://github.com/pdfkit/pdfkit/wiki/Installing-WKHTMLTOPDF .
 
 Usage
 -----
