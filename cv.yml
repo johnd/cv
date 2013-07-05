@@ -10,7 +10,7 @@ Personal Information:
     County: Fife
     Post Code: KY11 1DB
   Current Situation: |
-      Currently working as contractor 'Reliability Engineer' building/managing a substantial Node and Hadoop deployment.
+      Currently providing a range of Linux sysadmin and cloud technology support to RightScale's clients.
   Goal: |
       Seeking full-time or contract sysadmin/devops role, potentially with some Ruby software development.
 
@@ -21,6 +21,8 @@ Skills:
   - Skill: Application troubleshooting
     Level: Experienced
   - Skill: Virtualisation (VMWare, Xen)
+    Level: Experienced
+  - Skill: Cloud Technologies (AWS, RAX, OpenStack)
     Level: Experienced
   - Skill: Server hardware
     Level: Experienced
@@ -54,10 +56,6 @@ Skills:
     Level: Moderate
   - Skill: Mail server configuration
     Level: Moderate
-  - Skill: VoIP (Client/handset)
-    Level: Moderate
-  - Skill: VoIP (Server/Asterisk)
-    Level: Moderate
   - Skill: Git
     Level: Moderate
   - Skill: Subversion
@@ -72,10 +70,28 @@ Skills:
     Level: Basic
 
 Experience:
+  - Company: RightScale
+    Location: Edinburgh/Remote
+    Job Title: Backend Support Enginer
+    Start Date: November 2012
+    Description: |
+      * Working as part of the support team from an Engineering office in Edinburgh
+      * Support team is fully distributed, providing 24 hour support from several timezones
+      * Providing usability support for RightScale's main product.
+      * Providing expert-level advice and support for customers building on RightScale's platform.
+        - Advice on best practices for application deployment, including use of configuration management based on Chef
+        - Support for tracking down issues/bugs in customer configuration management scripts
+        - Support/advice for best practices on monitoring, scaling applications on RightScale's platform
+        - Assisting customers who are building management tools on top of RightScale's API
+        - Helping customers in any area, including assisting with general Linux sysadmin tasks
+        - Focus on educating customers rather than 'doing it for them'
+        - Awareness of keeping support answers appropraite to skill level of customer
+        - Awareness of limitations of support and when to pass to professional services/account manager
   - Company: Collective Media
     Location: New York/Remote
     Job Title: Reliability Engineer
     Start Date: May 2012
+    End Date: October 2012
     Description: |
       * Working as a contractor, initially part-time, moving to full-time in June 2012.
       * Managing deployment of new ad-serving and data-gathering platform using Puppet and Capistrano.
@@ -126,7 +142,7 @@ Experience:
     Location: Edinburgh
     Job Title: Technical Lead
     Start Date: January 2006
-    End Date: Current
+    End Date: August 2013
     Description: |
       * Partner in small web-hosting company.
 
