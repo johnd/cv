@@ -18,8 +18,6 @@ Skills:
   - |
     Primary background in operations/sysadmin with a range of skills in this area, including configuration management, virtualisation technologies, continuous use of *nix command-line environment, remote diagnostics, and excellent customer interaction skills.
     Also development experience with Ruby and familiarity with agile development method and related technology (such as TDD/BDD with RSpec and Cucumber).
-  - Skill: Application troubleshooting
-    Level: Experienced
   - Skill: Virtualisation (VMWare, Xen)
     Level: Experienced
   - Skill: Cloud Technologies (AWS, RAX, OpenStack)
@@ -36,7 +34,11 @@ Skills:
     Level: Experienced
   - Skill: Chef
     Level: Experienced
+  - Skill: System Monitoring
+    Level: Experienced
   - Skill: Rack application deployment
+    Level: Experienced
+  - Skill: Application troubleshooting
     Level: Experienced
   - Skill: Puppet
     Level: Moderate
@@ -70,22 +72,33 @@ Skills:
     Level: Basic
 
 Experience:
+  - Company: Various / Freelancing
+    Location: Edinburgh/Remote
+    Job Title: Freelance Sysadmin
+    Start Date: February 2012
+    Description: |
+      * Working for various clients performing Linux Sysadmin / Operations tasks
+      * Projects included:
+        - Build custom autoscaling for a client on AWS based on load stats produced via collectd
+        - Auditing clients for security or suitability for moving to a configuration management solution
+        - As a short-term contract, moving PickLive's entire infrastructure between VM providers, including implementing HA MySQL using DRBD
+        - Building out a HA architecture using drbd, heartbeat, and pacemaker for Rails and PHP web app deployment with configuration management using Chef, including providing HA MySQL
   - Company: RightScale
     Location: Edinburgh/Remote
-    Job Title: Backend Support Enginer
+    Job Title: Backend Support Engineer
     Start Date: November 2012
     Description: |
-      * Working as part of the support team from an Engineering office in Edinburgh
-      * Support team is fully distributed, providing 24 hour support from several timezones
+      * Working as part of the services team from an Engineering office in Edinburgh
+      * Support team is fully distributed, providing 24 hour support from several time zones
       * Providing usability support for RightScale's main product.
+      * RightScale provides management tools for massive cloud deployments, including hybrid public/private clouds for clients such as Zynga, EA, Samsung, etc.
       * Providing expert-level advice and support for customers building on RightScale's platform.
-        - Advice on best practices for application deployment, including use of configuration management based on Chef
+        - Advice on best practices for cloud-based application deployment, including use of configuration management based on Chef
         - Support for tracking down issues/bugs in customer configuration management scripts
         - Support/advice for best practices on monitoring, scaling applications on RightScale's platform
         - Assisting customers who are building management tools on top of RightScale's API
         - Helping customers in any area, including assisting with general Linux sysadmin tasks
-        - Focus on educating customers rather than 'doing it for them'
-        - Awareness of keeping support answers appropraite to skill level of customer
+        - Liaising with Engineering and Product teams to escalate technical issues and customer feedback
         - Awareness of limitations of support and when to pass to professional services/account manager
   - Company: Collective Media
     Location: New York/Remote
@@ -95,6 +108,10 @@ Experience:
     Description: |
       * Working as a contractor, initially part-time, moving to full-time in June 2012.
       * Managing deployment of new ad-serving and data-gathering platform using Puppet and Capistrano.
+      * Systems managed included:
+        - Node JS based application
+        - Zookeeper distributed data/configuration store
+        - System and application-level monitoring with Circonus
       * Platform intended to support ~100k requests per second with hardware across four datacentres.
   - Company: PickLive
     Location: London/Remote
@@ -108,11 +125,11 @@ Experience:
       * As a developer, involved in adding and maintaining features as part of a rapidly moving start-up.
         - Large applications developed as Rails apps, smaller admin/trial projects done using Sinatra.
         - Working as part of a small team, using aspects of Agile methodology (Kanban-style board, daily stand-ups) to keep the team on focus and moving quickly.
-        - Focus on delivering high quality, test-driven code that fulfills specific business requirements.
+        - Focus on delivering high quality, test-driven code that fulfils specific business requirements.
 
       * As sysadmin, took prime responsibility for maintaining existing infrastructure, including being main 'on-call' contact.
-        - Infrastructure management is automated using Chef, with new systems or code consistently being added by writing a Chef cookbook first, and then trialing on a staging environment.
-        - Application monitoring using Nagios, with all critical aspects of the infrastructure monitored. Maintaining viable monitoring (in some cases removing or adjusting monitoring to reduce noise) is an important part of this role.
+        - Infrastructure management is automated using Chef, with new systems or code consistently being added by writing a Chef cookbook first, and then trailing on a staging environment.
+        - Application monitoring using Nagios and collectd, with all critical aspects of the infrastructure monitored. Maintaining viable monitoring (in some cases removing or adjusting monitoring to reduce noise) is an important part of this role.
         - Managing resources to ensure that our limited budget is used efficiently, while avoiding impacting peak-time responsiveness. Role-based server task assignment in Chef is essential for this.
         - Being aware of keeping best security practices, as company is in a regulated industry and annual security audits are required.
         - Evaluating technical solutions to ensure that any choices made are appropriate for the needs of the company.
@@ -126,7 +143,7 @@ Experience:
 
       * Primary developer, with responsibility across the full stack, of a Rails 3 application.
       * Working with an experienced consultant to provide guidance and additional support.
-      * Specific tasks/responsibilties include:
+      * Specific tasks/responsibilities include:
         - Database/model design
         - TDD of application development using Cucumber and RSpec
         - Choice of appropriate technologies and libraries (such as the Devise RubyGem)
